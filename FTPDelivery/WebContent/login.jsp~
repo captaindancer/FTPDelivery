@@ -1,0 +1,47 @@
+<%@ page language="java" contentType="text/html; charset=gb2312"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>用户登录</title>
+<link rel="stylesheet" type="text/css" href="./js/easyui/themes/default/easyui.css">
+<link rel="stylesheet" type="text/css" href="./js/easyui/themes/icon.css">
+    <script type="text/javascript" src="./js/easyui/jquery.min.js"></script>
+<script type="text/javascript" src="./js/easyui/jquery.easyui.min.js"></script>
+</head>
+ <body style="margin-left:auto;margin-right:auto;">
+    <div class="easyui-panel" title="登录" style="width:400px;">
+    <div style="padding:10px 60px 20px 60px">
+    <form id="ff" method="post" action="./LoginServlet">
+    <table cellpadding="5">
+    <tr>
+    <td>用户名:</td>
+    <td><input class="easyui-textbox" type="text" name="name" data-options="required:true"></input></td>
+    </tr>
+    <tr>
+    <td>密码:</td>
+    <td><input class="easyui-textbox" type="password" name="password" data-options="required:true"></input></td>
+    </tr>
+    </table>
+    </form>
+    <div style="text-align:center;padding:5px">
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="submitForm()">登录</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="clearForm()">退出</a>
+    </div>
+    </div>
+    </div>
+	</div>
+    <script>
+    var flag = <%=request.getParameter("flag")%>;
+    if(flag == 1) {
+    	alert("密码错误!");
+    }
+    function submitForm(){
+    	document.getElementById('ff').submit();
+    }
+    function clearForm(){
+   		$('#ff').form('clear');
+    }
+    </script>
+    </body>
+    </html>

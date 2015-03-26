@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/eagle"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jdbc"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/log"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/mail"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="/home/liufeng/commons/commons-net-3.3.jar" sourcepath="/home/liufeng/commons/commons-net-3.3-sources.jar"/>
+	<classpathentry kind="lib" path="/home/liufeng/openmeetings/VideoDelivery/lib/sqljdbc4.jar"/>
+	<classpathentry kind="lib" path="/home/liufeng/windcollege/dom4j-1.6.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.6.0_45"/>
+	<classpathentry kind="lib" path="/home/liufeng/windcollege/main.jar"/>
+	<classpathentry kind="lib" path="/home/liufeng/Downloads/jetty-distribution-8.1.16.v20140903/lib/jetty-continuation-8.1.16.v20140903.jar"/>
+	<classpathentry kind="lib" path="/home/liufeng/Downloads/jetty-distribution-8.1.16.v20140903/lib/jetty-http-8.1.16.v20140903.jar"/>
+	<classpathentry kind="lib" path="/home/liufeng/Downloads/jetty-distribution-8.1.16.v20140903/lib/jetty-io-8.1.16.v20140903.jar"/>
+	<classpathentry kind="lib" path="/home/liufeng/Downloads/jetty-distribution-8.1.16.v20140903/lib/jetty-security-8.1.16.v20140903.jar"/>
+	<classpathentry kind="lib" path="/home/liufeng/Downloads/jetty-distribution-8.1.16.v20140903/lib/jetty-server-8.1.16.v20140903.jar"/>
+	<classpathentry kind="lib" path="/home/liufeng/Downloads/jetty-distribution-8.1.16.v20140903/lib/jetty-servlet-8.1.16.v20140903.jar"/>
+	<classpathentry kind="lib" path="/home/liufeng/Downloads/jetty-distribution-8.1.16.v20140903/lib/jetty-util-8.1.16.v20140903.jar"/>
+	<classpathentry kind="lib" path="/home/liufeng/Downloads/jetty-distribution-8.1.16.v20140903/lib/jetty-webapp-8.1.16.v20140903.jar"/>
+	<classpathentry kind="lib" path="/home/liufeng/Downloads/jetty-distribution-8.1.16.v20140903/lib/jetty-xml-8.1.16.v20140903.jar"/>
+	<classpathentry kind="lib" path="/home/liufeng/Downloads/jetty-distribution-8.1.16.v20140903/lib/servlet-api-3.0.jar"/>
+	<classpathentry kind="lib" path="/home/liufeng/Downloads/jetty-distribution-8.1.16.v20140903/lib/jsp/javax.el-2.2.0.v201108011116.jar"/>
+	<classpathentry kind="lib" path="/home/liufeng/Downloads/jetty-distribution-8.1.16.v20140903/lib/jsp/javax.servlet.jsp-2.2.0.v201112011158.jar"/>
+	<classpathentry kind="lib" path="/home/liufeng/Downloads/jetty-distribution-8.1.16.v20140903/lib/jsp/org.apache.jasper.glassfish-2.2.2.v201112011158.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jsonweb"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

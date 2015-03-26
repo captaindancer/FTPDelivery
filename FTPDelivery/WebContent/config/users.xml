@@ -1,0 +1,5 @@
+<users>
+	<user name="admin" password="admin" />
+	<user name="wind" password="wind" />
+	<user name="techx01" password="techx01" />
+</users>

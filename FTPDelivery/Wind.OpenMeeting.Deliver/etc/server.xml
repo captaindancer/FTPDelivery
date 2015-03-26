@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Configure PUBLIC "-//Mort Bay Consulting//DTD Configure//EN" "configure.dtd">
+<Configure id="Server" class="com.wind.openmeeting.deliver.DeliverServer">
+    <!--
+         定义MASTER-SLAVE
+         hearturl：使用RMI方式进行心跳状态检测的URL
+         master：主服务器的IP地址，只能有一个
+         slaves：从服务器的IP地址列表，可以多个，一般包含自身，心跳检测的时候忽略自身的IP地址
+     -->
+    <Set name="hearturl">rmi://%s:9000/heart.rem</Set>
+    <!-- 心跳检测的时间间隔，单位为秒 -->
+    <Set name="hearInterval">10</Set>
+    <Set name="master">10.100.1.72</Set>
+    <Set name="port">9000</Set>
+    <Set name="slaves">
+        <Array type="String">
+            <Item>10.100.1.25</Item>
+            <Item>10.100.1.28</Item>
+        </Array>
+    </Set>
+    <!-- 故障发生报警信息 -->
+    <Set name="notice">
+        <New id="NoticeObject" class="com.windin.component.InfoNotice">
+            <Set name="mailConfig">/com/wind/openmeeting/deliver/res/email.properties</Set>
+        </New>
+    </Set>
+    
+    <!-- Eagle配置信息 -->
+    <Set name="eagleParamter">
+    	<New id="EagleParamterObj" class="com.wind.openmeeting.deliver.EagleParamter">
+    		<Set name="serviceName">Wind.OpenMeeting.Deliver</Set>
+    		<Set name="baseSystemCode">00</Set>
+    		<Set name="subSystemCode">01</Set>
+    		<Set name="serverIP">10.100.1.72</Set>
+    		<Set name="serverPort">5668</Set>
+    		<Set name="useNSCAServer">0</Set>
+    	</New>
+    </Set>    
+	<Call name="initDB">
+	<!-- 
+		<Arg>/usr/local/jdk16/db/bin</Arg>
+		 -->
+		<Arg><SystemProperty name="ocean.home" default="."/>/db</Arg>
+	</Call>
+	<!-- 定义用于windows服务关闭的模块，在Linux下不生效 -->
+	<Call name="addLifeCycle">
+		<Arg>
+			<New class="com.windin.stop.Win32Service">
+				<Set name="server"><Ref id="Server" /></Set>
+			</New>
+		</Arg>
+	</Call>
+	
+ <!-- <New id="ftpAccount1" class="com.wind.openmeeting.deliver.beans.FTPAccount">
+ 	<Set name="hostname">10.100.1.201</Set>
+ 	<Set name="username">x2hadoop</Set>
+ 	<Set name="password">Wind2013</Set>
+ 	<Set name="directory">wind/galaxy/liufeng/ftp</Set> 	
+ </New>
+ <New id="ftpAccount2" class="com.wind.openmeeting.deliver.beans.FTPAccount">
+ 	<Set name="hostname">10.100.1.202</Set>
+ 	<Set name="username">x2hadoop</Set>
+ 	<Set name="password">Wind2013</Set>
+ 	<Set name="directory">liufeng/ftp</Set> 	
+ </New>
+ <New id="ftpAccount3" class="com.wind.openmeeting.deliver.beans.FTPAccount">
+ 	<Set name="hostname">10.100.1.203</Set>
+ 	<Set name="username">x2hadoop</Set>
+ 	<Set name="password">Wind2013</Set>
+ 	<Set name="directory">liufeng/ftp</Set> 	
+ </New>
+ <New id="ftpAccount4" class="com.wind.openmeeting.deliver.beans.FTPAccount">
+ 	<Set name="hostname">10.100.1.204</Set>
+ 	<Set name="username">x2hadoop</Set>
+ 	<Set name="password">Wind2013</Set>
+ 	<Set name="directory">liufeng/ftp</Set> 	
+ </New>
+ <New id="ftpAccount5" class="com.wind.openmeeting.deliver.beans.FTPAccount">
+ 	<Set name="hostname">10.100.1.205</Set>
+ 	<Set name="username">x2hadoop</Set>
+ 	<Set name="password">Wind2013</Set>
+ 	<Set name="directory">liufeng/ftp</Set> 	
+ </New>
+ <New id="ftpAccount6" class="com.wind.openmeeting.deliver.beans.FTPAccount">
+ 	<Set name="hostname">10.100.1.208</Set>
+ 	<Set name="username">x2hadoop</Set>
+ 	<Set name="password">Wind2013</Set>
+ 	<Set name="directory">liufeng/ftp</Set> 	
+ </New> -->
+ 
+<New id="dbConfig" class="com.wind.openmeeting.deliver.beans.DBConfig">
+	<Set name="dbSource">10.100.6.53</Set>
+	<Set name="userID">hadoop</Set>
+</New>
+ 
+ 
+  <Call name="addLifeCycle">
+ 	<Arg>
+ 		<New class="com.wind.openmeeting.deliver.bi.DBTask">
+ 			<Set name="dbConfig"><Ref id="dbConfig" /></Set>
+ 			<Set name="TaskPlan">*/1 2-7 * * *</Set>
+ 			<!-- <Set name="ftpAccountMap" >
+ 				<New class="java.util.concurrent.ConcurrentHashMap">
+ 						<Put name="2"><Ref id="ftpAccount1" /></Put>
+ 						<Put name="3"><Ref id="ftpAccount2" /></Put>
+ 						<Put name="4"><Ref id="ftpAccount3" /></Put>
+ 						<Put name="5"><Ref id="ftpAccount4" /></Put>
+ 						<Put name="6"><Ref id="ftpAccount5" /></Put>
+ 						<Put name="7"><Ref id="ftpAccount6" /></Put>
+ 				</New>
+ 			</Set> -->
+ 		</New>
+ 	</Arg>
+ </Call>
+ <Call name="addLifeCycle">
+ 	<Arg>
+ 		<New class="com.wind.openmeeting.deliver.bi.FTPTask">
+ 			<Set name="noticeObj"><Ref id="NoticeObject" /></Set>
+ 			<Set name="filePath">/home/liufeng/windcollege</Set>
+ 			<Set name="copyPath">/home/liufeng/copy</Set>
+ 			<Set name="dbConfig"><Ref id="dbConfig" /></Set>
+ 			<!-- 设置线程池的数目 -->
+ 			<Set name="threadNumber">3</Set>
+ 			<Set name="speedLimit" desc="字节数" >1048576</Set>
+ 			<Set name="TaskPlan">*/10 12-20 * * *</Set>
+ 		</New>
+ 	</Arg>
+ </Call>
+ <Call name="addLifeCycle">
+ 	<Arg>
+ 		<New class="com.wind.openmeeting.deliver.bi.VerificationTask">
+ 			<Set name="TaskPlan">0 23 1 * *</Set>
+ 		</New>
+ 	</Arg>
+ </Call>
+ <Call name="addLifeCycle">
+    <Arg>
+       <New class="com.wind.openmeeting.deliver.bi.WebTask">
+ 			<Set name="baseDirectory">/home/liufeng/jetty/WebContent</Set>
+ 			<Set name="port">8080</Set>
+       </New>
+    </Arg>
+ </Call>
+</Configure>

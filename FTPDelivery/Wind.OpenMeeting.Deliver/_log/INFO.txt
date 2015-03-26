@@ -1,0 +1,334 @@
+2014-12-04 14:30:20,879 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2014-12-04 14:31:23,322 [Thread-13] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - ftp task run
+2014-12-04 14:31:23,323 [Thread-14] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2014-12-04 14:31:24,026 [Thread-14] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - 准备插入:2662:2,3,4,5,6,7
+2014-12-04 14:31:24,074 [Thread-14] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - 成功插入了:6
+2014-12-04 14:32:23,319 [Thread-16] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2014-12-04 14:32:23,321 [Thread-17] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - ftp task run
+2014-12-04 14:33:50,702 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2014-12-04 14:33:51,626 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2014-12-04 14:33:51,661 [Thread-11] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2014-12-04 14:34:51,654 [Thread-14] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2014-12-04 14:34:51,656 [Thread-15] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - ftp task run
+2014-12-04 14:37:13,685 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2014-12-04 14:37:14,557 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2014-12-04 14:37:14,596 [Thread-10] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2014-12-04 14:37:14,600 [Thread-12] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - ftp task run
+2014-12-04 14:37:15,292 [pool-1-thread-3] INFO  com.wind.openmeeting.deliver.utils.FTPUtils [] - [10.100.1.203] 230 Login successful.
+
+2014-12-04 14:37:15,292 [pool-1-thread-6] INFO  com.wind.openmeeting.deliver.utils.FTPUtils [] - [10.100.1.208] 230 Login successful.
+
+2014-12-04 14:37:15,292 [pool-1-thread-2] INFO  com.wind.openmeeting.deliver.utils.FTPUtils [] - [10.100.1.202] 230 Login successful.
+
+2014-12-04 14:37:15,295 [pool-1-thread-5] INFO  com.wind.openmeeting.deliver.utils.FTPUtils [] - [10.100.1.205] 230 Login successful.
+
+2014-12-04 14:37:15,315 [pool-1-thread-6] INFO  com.wind.openmeeting.deliver.utils.FTPUtils [] - [10.100.1.208]开始上传!
+2014-12-04 14:37:15,315 [pool-1-thread-5] INFO  com.wind.openmeeting.deliver.utils.FTPUtils [] - [10.100.1.205]开始上传!
+2014-12-04 14:37:15,315 [pool-1-thread-2] INFO  com.wind.openmeeting.deliver.utils.FTPUtils [] - [10.100.1.202]开始上传!
+2014-12-04 14:37:15,316 [pool-1-thread-3] INFO  com.wind.openmeeting.deliver.utils.FTPUtils [] - [10.100.1.203]开始上传!
+2014-12-04 14:37:15,322 [pool-1-thread-6] INFO  com.wind.openmeeting.deliver.utils.FTPUtils [] - [10.100.1.208]上传成功
+2014-12-04 14:37:15,324 [pool-1-thread-5] INFO  com.wind.openmeeting.deliver.utils.FTPUtils [] - [10.100.1.205]上传成功
+2014-12-04 14:37:15,326 [pool-1-thread-2] INFO  com.wind.openmeeting.deliver.utils.FTPUtils [] - [10.100.1.202]上传成功
+2014-12-04 14:37:15,329 [pool-1-thread-3] INFO  com.wind.openmeeting.deliver.utils.FTPUtils [] - [10.100.1.203]上传成功
+2014-12-04 14:37:15,366 [pool-1-thread-4] INFO  com.wind.openmeeting.deliver.utils.FTPUtils [] - [10.100.1.204] 230 Login successful.
+
+2014-12-04 14:37:15,377 [pool-1-thread-4] INFO  com.wind.openmeeting.deliver.utils.FTPUtils [] - [10.100.1.204]开始上传!
+2014-12-04 14:37:15,390 [pool-1-thread-4] INFO  com.wind.openmeeting.deliver.utils.FTPUtils [] - [10.100.1.204]上传成功
+2014-12-04 14:37:15,396 [pool-1-thread-6] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - 10.100.1.208开始将结果写到日志文件中
+2014-12-04 14:37:15,398 [pool-1-thread-2] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - 10.100.1.202开始将结果写到日志文件中
+2014-12-04 14:37:15,400 [pool-1-thread-3] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - 10.100.1.203开始将结果写到日志文件中
+2014-12-04 14:37:15,401 [pool-1-thread-4] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - 10.100.1.204开始将结果写到日志文件中
+2014-12-04 14:37:15,403 [pool-1-thread-5] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - 10.100.1.205开始将结果写到日志文件中
+2014-12-04 14:37:15,407 [pool-1-thread-1] INFO  com.wind.openmeeting.deliver.utils.FTPUtils [] - [10.100.1.201] 230 Login successful.
+
+2014-12-04 14:37:15,439 [pool-1-thread-5] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - 10.100.1.205上传日志发送成功!
+2014-12-04 14:37:15,440 [pool-1-thread-4] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - 10.100.1.204上传日志发送成功!
+2014-12-04 14:37:15,441 [pool-1-thread-6] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - 10.100.1.208上传日志发送成功!
+2014-12-04 14:37:15,448 [pool-1-thread-3] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - 10.100.1.203上传日志发送成功!
+2014-12-04 14:37:15,461 [pool-1-thread-2] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - 10.100.1.202上传日志发送成功!
+2014-12-04 14:37:15,514 [pool-1-thread-1] INFO  com.wind.openmeeting.deliver.utils.FTPUtils [] - [10.100.1.201]开始上传!
+2014-12-04 14:37:15,539 [pool-1-thread-1] INFO  com.wind.openmeeting.deliver.utils.FTPUtils [] - [10.100.1.201]上传成功
+2014-12-04 14:53:01,916 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2014-12-04 14:53:02,858 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2014-12-04 14:53:02,894 [Thread-10] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2014-12-04 14:53:02,900 [Thread-14] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - ftp task run
+2014-12-04 14:53:03,835 [pool-1-thread-1] INFO  com.wind.openmeeting.deliver.utils.FTPUtils [] - [10.100.1.201] 230 Login successful.
+
+2014-12-04 14:53:03,925 [pool-1-thread-1] WARN  com.wind.openmeeting.deliver.utils.FTPUtils [] - [10.100.1.201]当前上传文件已存在!
+2014-12-04 14:53:03,982 [pool-1-thread-1] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - 10.100.1.201开始将结果写到日志文件中
+2014-12-04 14:53:04,010 [pool-1-thread-1] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - 10.100.1.201上传日志发送成功!
+2014-12-04 14:54:02,886 [Thread-15] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2014-12-04 14:54:02,890 [Thread-16] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - ftp task run
+2014-12-04 14:54:02,981 [Thread-16] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - derby回写标记改变:6
+2014-12-04 14:54:02,982 [Thread-16] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - 2662 回写操作已完成!
+2014-12-04 14:55:02,888 [Thread-18] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2014-12-04 14:55:02,890 [Thread-19] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - ftp task run
+2014-12-04 14:56:02,888 [Thread-21] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2014-12-04 14:56:02,891 [Thread-22] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - ftp task run
+2014-12-04 14:57:02,889 [Thread-24] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2014-12-04 14:57:02,891 [Thread-25] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - ftp task run
+2014-12-04 14:58:02,889 [Thread-27] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2014-12-04 14:58:02,891 [Thread-28] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - ftp task run
+2014-12-04 14:59:02,894 [Thread-31] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - ftp task run
+2014-12-04 14:59:02,894 [Thread-30] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2014-12-04 15:01:02,892 [Thread-34] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2014-12-04 15:01:02,894 [Thread-35] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - ftp task run
+2014-12-04 15:02:02,892 [Thread-37] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2014-12-04 15:02:02,895 [Thread-38] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - ftp task run
+2014-12-04 15:03:02,893 [Thread-40] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2014-12-04 15:03:02,896 [Thread-41] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - ftp task run
+2014-12-04 15:04:02,893 [Thread-43] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2014-12-04 15:04:02,895 [Thread-44] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - ftp task run
+2014-12-04 15:05:02,894 [Thread-46] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2014-12-04 15:05:02,897 [Thread-47] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - ftp task run
+2014-12-04 15:06:02,894 [Thread-49] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2014-12-04 15:06:02,897 [Thread-50] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - ftp task run
+2014-12-04 15:07:02,895 [Thread-52] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2014-12-04 15:07:02,897 [Thread-53] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - ftp task run
+2014-12-04 15:08:02,896 [Thread-55] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2014-12-04 15:08:02,899 [Thread-56] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - ftp task run
+2014-12-10 15:59:52,617 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2014-12-10 15:59:54,845 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2014-12-10 16:01:33,721 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2014-12-10 16:02:17,644 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2014-12-10 16:02:18,962 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2014-12-10 16:02:19,976 [Thread-9] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2014-12-10 16:03:19,974 [Thread-10] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2014-12-10 16:04:19,974 [Thread-16] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2014-12-10 16:04:23,178 [Thread-17] INFO  com.wind.openmeeting.deliver.bi.FTPTask [] - ftp task run
+2014-12-10 16:06:28,702 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2014-12-10 16:06:29,907 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2014-12-10 16:07:30,636 [Thread-9] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2014-12-10 16:08:30,637 [Thread-11] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2014-12-10 17:12:20,935 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2014-12-10 17:12:21,956 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2014-12-10 17:12:22,769 [Thread-9] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2014-12-10 17:12:47,817 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2014-12-10 17:12:48,794 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2014-12-10 17:12:49,563 [Thread-9] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2014-12-10 17:13:49,627 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2014-12-10 17:13:50,633 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2014-12-10 17:14:07,826 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2014-12-10 17:14:08,876 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2014-12-10 17:14:09,673 [Thread-9] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2014-12-10 17:42:45,698 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2014-12-10 17:42:46,648 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2014-12-10 17:42:47,337 [Thread-9] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2015-01-05 15:43:15,248 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2015-01-05 15:43:16,609 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2015-01-05 15:43:27,175 [main] WARN  com.windin.component.AbstractLifeCycle [] - failed WebTask@c58f769
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind(Native Method)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:124)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:59)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187)
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.wind.openmeeting.deliver.bi.WebTask.initContainer(WebTask.java:40)
+	at com.wind.openmeeting.deliver.bi.WebTask.doStart(WebTask.java:47)
+	at com.windin.component.AbstractLifeCycle.start(AbstractLifeCycle.java:26)
+	at com.windin.component.BaseService.doStart(BaseService.java:155)
+	at com.wind.openmeeting.deliver.DeliverServer.doStart(DeliverServer.java:49)
+	at com.windin.component.AbstractLifeCycle.start(AbstractLifeCycle.java:26)
+	at com.windin.start.xml.XmlConfiguration.main(XmlConfiguration.java:980)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.windin.start.StartMain.invokeMain(StartMain.java:188)
+	at com.windin.start.StartMain.start(StartMain.java:507)
+	at com.windin.start.StartMain.main(StartMain.java:110)
+2015-01-05 15:43:27,176 [main] ERROR com.windin.component.BaseService [] - Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind(Native Method)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:124)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:59)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187)
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.wind.openmeeting.deliver.bi.WebTask.initContainer(WebTask.java:40)
+	at com.wind.openmeeting.deliver.bi.WebTask.doStart(WebTask.java:47)
+	at com.windin.component.AbstractLifeCycle.start(AbstractLifeCycle.java:26)
+	at com.windin.component.BaseService.doStart(BaseService.java:155)
+	at com.wind.openmeeting.deliver.DeliverServer.doStart(DeliverServer.java:49)
+	at com.windin.component.AbstractLifeCycle.start(AbstractLifeCycle.java:26)
+	at com.windin.start.xml.XmlConfiguration.main(XmlConfiguration.java:980)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.windin.start.StartMain.invokeMain(StartMain.java:188)
+	at com.windin.start.StartMain.start(StartMain.java:507)
+	at com.windin.start.StartMain.main(StartMain.java:110)
+2015-01-05 15:45:17,910 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2015-01-05 15:45:18,940 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2015-01-05 16:18:46,807 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2015-01-05 16:18:47,699 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2015-01-05 16:56:41,378 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2015-01-05 16:56:42,552 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2015-01-05 16:58:19,590 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2015-01-05 16:58:20,567 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2015-01-05 17:05:53,566 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2015-01-05 17:05:54,618 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2015-01-05 17:11:18,411 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2015-01-05 17:11:19,383 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2015-01-05 17:13:08,676 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2015-01-05 17:13:09,760 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2015-01-05 17:14:19,063 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2015-01-05 17:14:20,027 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2015-01-05 17:15:22,994 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2015-01-05 17:15:23,838 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2015-01-05 17:15:40,482 [pool-3-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.208:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-05 17:15:40,517 [pool-3-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.204:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-05 17:15:40,518 [pool-3-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.205:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-05 17:15:40,519 [pool-3-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.202:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-05 17:15:40,520 [pool-3-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.203:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-05 17:15:40,520 [pool-3-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.201:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:14:05,717 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.201:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:14:05,943 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.202:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:14:05,950 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.203:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:14:05,958 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.204:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:14:05,967 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.205:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:14:05,974 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.208:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:17:03,995 [pool-4-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.201:/home/liufeng/windcollege/视频测试此文件不存在!请核查!
+2015-01-06 21:17:03,995 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.201:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:17:04,155 [pool-4-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.202:/home/liufeng/windcollege/视频测试此文件不存在!请核查!
+2015-01-06 21:17:04,159 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.202:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:17:04,167 [pool-4-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.203:/home/liufeng/windcollege/视频测试此文件不存在!请核查!
+2015-01-06 21:17:04,170 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.203:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:17:04,175 [pool-4-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.204:/home/liufeng/windcollege/视频测试此文件不存在!请核查!
+2015-01-06 21:17:04,183 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.204:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:17:04,196 [pool-4-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.205:/home/liufeng/windcollege/视频测试此文件不存在!请核查!
+2015-01-06 21:17:04,212 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.205:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:17:04,213 [pool-4-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.208:/home/liufeng/windcollege/视频测试此文件不存在!请核查!
+2015-01-06 21:17:04,228 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.208:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:21:24,742 [pool-4-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.201:/home/liufeng/windcollege/视频测试此文件不存在!请核查!
+2015-01-06 21:21:24,746 [pool-4-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.202:/home/liufeng/windcollege/视频测试此文件不存在!请核查!
+2015-01-06 21:21:24,747 [pool-4-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.203:/home/liufeng/windcollege/视频测试此文件不存在!请核查!
+2015-01-06 21:21:24,747 [pool-4-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.204:/home/liufeng/windcollege/视频测试此文件不存在!请核查!
+2015-01-06 21:21:24,742 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.201:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:21:24,750 [pool-4-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.205:/home/liufeng/windcollege/视频测试此文件不存在!请核查!
+2015-01-06 21:21:24,751 [pool-4-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.208:/home/liufeng/windcollege/视频测试此文件不存在!请核查!
+2015-01-06 21:21:24,752 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.202:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:21:24,753 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.203:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:21:24,753 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.204:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:21:24,754 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.205:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:21:24,755 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.208:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:24:55,600 [pool-4-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.201:/home/liufeng/windcollege/视频测试此文件不存在!请核查!
+2015-01-06 21:24:55,605 [pool-4-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.202:/home/liufeng/windcollege/视频测试此文件不存在!请核查!
+2015-01-06 21:24:55,600 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.201:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:24:55,608 [pool-4-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.203:/home/liufeng/windcollege/视频测试此文件不存在!请核查!
+2015-01-06 21:24:55,610 [pool-4-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.204:/home/liufeng/windcollege/视频测试此文件不存在!请核查!
+2015-01-06 21:24:55,610 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.202:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:24:55,611 [pool-4-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.205:/home/liufeng/windcollege/视频测试此文件不存在!请核查!
+2015-01-06 21:24:55,612 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.203:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:24:55,613 [pool-4-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.208:/home/liufeng/windcollege/视频测试此文件不存在!请核查!
+2015-01-06 21:24:55,614 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.204:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:24:55,615 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.205:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:24:55,615 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.208:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:25:43,473 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.201:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:25:43,477 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.202:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:25:43,479 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.203:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:25:43,480 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.204:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:25:43,481 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.205:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:25:43,482 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.208:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:26:32,068 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.201:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:26:32,076 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.202:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:26:32,078 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.203:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:26:32,079 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.204:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:26:32,080 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.205:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:26:32,081 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.208:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:27:19,087 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.201:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:27:19,090 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.202:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:27:19,092 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.203:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:27:19,093 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.204:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:27:19,094 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.205:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:27:19,095 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.208:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:28:38,099 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.201:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:28:38,102 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.202:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:28:38,104 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.203:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:28:38,105 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.204:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:28:38,106 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.205:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:28:38,106 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.208:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:30:04,162 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.201:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:30:04,167 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.202:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:30:04,169 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.203:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:30:04,170 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.204:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:30:04,171 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.205:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:30:04,172 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.208:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:31:40,154 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.201:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:31:40,163 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.202:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:31:40,165 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.203:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:31:40,166 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.204:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:31:40,167 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.205:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-06 21:31:40,169 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.208:/home/liufeng/windcollege/123.wmv此文件不存在!请核查!
+2015-01-07 19:36:31,393 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2015-01-07 19:36:34,435 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2015-01-07 19:38:45,773 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2015-01-07 19:38:46,730 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2015-01-07 19:38:47,067 [main] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - 开始了
+2015-01-07 19:43:56,687 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2015-01-07 19:43:57,519 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2015-01-07 19:45:20,772 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2015-01-07 19:45:22,203 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2015-01-07 19:47:13,845 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2015-01-07 19:47:14,740 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2015-01-07 19:47:15,067 [Thread-7] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - start
+2015-01-07 19:49:09,000 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2015-01-07 19:49:09,984 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2015-01-07 20:18:25,448 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2015-01-07 20:18:26,290 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2015-01-07 20:18:26,594 [Thread-7] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - construtor
+2015-01-07 20:19:33,345 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2015-01-07 20:19:34,189 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2015-01-08 10:48:07,708 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2015-01-08 10:48:09,196 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2015-01-08 10:51:27,143 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2015-01-08 10:51:28,060 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2015-01-08 10:57:15,093 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2015-01-08 10:57:15,976 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2015-01-08 11:03:10,681 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2015-01-08 11:03:11,525 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2015-01-08 11:04:55,111 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2015-01-08 11:04:55,995 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2015-01-08 11:27:40,351 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2015-01-08 11:27:41,207 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2015-01-08 11:28:41,461 [Thread-25] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2015-01-08 11:29:54,152 [main] INFO  com.wind.openmeeting.deliver.DeliverServer [] - 嵌入式数据库目录：/home/liufeng/Wind.OpenMeeting/Wind.OpenMeeting.Deliver/db
+2015-01-08 11:29:55,004 [main] INFO  com.wind.openmeeting.deliver.db.DBInit [] - 嵌入式数据库中存在数据表：UT_VIDEOSTATUS
+2015-01-08 11:30:55,224 [Thread-25] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2015-01-08 11:30:56,495 [Thread-25] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - 进入数据库扫描
+2015-01-08 11:30:56,589 [Thread-25] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - 准备插入:2668:2,3,4,5,6,7
+2015-01-08 11:31:55,225 [Thread-27] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2015-01-08 11:31:55,240 [Thread-27] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - 进入数据库扫描
+2015-01-08 11:31:55,248 [Thread-27] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - 准备插入:2668:2,3,4,5,6,7
+2015-01-08 11:32:55,226 [Thread-29] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2015-01-08 11:32:55,238 [Thread-29] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - 进入数据库扫描
+2015-01-08 11:32:55,245 [Thread-29] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - 准备插入:2668:2,3,4,5,6,7
+2015-01-08 11:33:55,226 [Thread-31] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - db task run
+2015-01-08 11:33:55,240 [Thread-31] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - 进入数据库扫描
+2015-01-08 11:33:55,250 [Thread-31] INFO  com.wind.openmeeting.deliver.bi.DBTask [] - 准备插入:2668:2,3,4,5,6,7
+2015-01-13 13:18:37,720 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.201: [/home/liufeng/windcollege/soku.wmv] 此文件不存在!请核查!
+2015-01-13 13:18:39,274 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.202: [/home/liufeng/windcollege/soku.wmv] 此文件不存在!请核查!
+2015-01-13 13:18:40,933 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.203: [/home/liufeng/windcollege/soku.wmv] 此文件不存在!请核查!
+2015-01-13 13:18:42,391 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.204: [/home/liufeng/windcollege/soku.wmv] 此文件不存在!请核查!
+2015-01-13 13:18:54,635 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.205: [/home/liufeng/windcollege/soku.wmv] 此文件不存在!请核查!
+2015-01-13 13:18:56,221 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.208: [/home/liufeng/windcollege/soku.wmv] 此文件不存在!请核查!
+2015-01-13 13:25:24,780 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.201: [/home/liufeng/windcollege/soku.wmv] 此文件不存在!请核查!
+2015-01-13 13:25:24,782 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.202: [/home/liufeng/windcollege/soku.wmv] 此文件不存在!请核查!
+2015-01-13 13:25:24,782 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.203: [/home/liufeng/windcollege/soku.wmv] 此文件不存在!请核查!
+2015-01-13 13:25:24,782 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.204: [/home/liufeng/windcollege/soku.wmv] 此文件不存在!请核查!
+2015-01-13 13:25:24,783 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.205: [/home/liufeng/windcollege/soku.wmv] 此文件不存在!请核查!
+2015-01-13 13:25:24,783 [pool-2-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.208: [/home/liufeng/windcollege/soku.wmv] 此文件不存在!请核查!
+2015-01-13 13:32:26,921 [pool-3-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.201: [/home/liufeng/windcollege/soku.wmv] 此文件不存在!请核查!
+2015-01-13 13:32:26,924 [pool-3-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.202: [/home/liufeng/windcollege/soku.wmv] 此文件不存在!请核查!
+2015-01-13 13:32:26,924 [pool-3-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.203: [/home/liufeng/windcollege/soku.wmv] 此文件不存在!请核查!
+2015-01-13 13:32:26,924 [pool-3-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.204: [/home/liufeng/windcollege/soku.wmv] 此文件不存在!请核查!
+2015-01-13 13:32:26,925 [pool-3-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.205: [/home/liufeng/windcollege/soku.wmv] 此文件不存在!请核查!
+2015-01-13 13:32:26,925 [pool-3-thread-1] ERROR com.wind.openmeeting.deliver.bi.FTPTask [] - 传输到10.100.1.208: [/home/liufeng/windcollege/soku.wmv] 此文件不存在!请核查!
